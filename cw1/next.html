@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="dist/next.js"></script>
+  </head>
+  <body>
+    <template id="input-group-template">
+      <div class="input-group">
+        <input class="input" type="text" value="0" />
+        <input class="select" type="checkbox" />
+        <button class="delete">X</button>
+      </div>
+    </template>
+
+    <div class="input-wrapper"></div>
+
+    <div class="controls">
+      <input min="0" class="input-count" type="number" placeholder="Liczba inputów" value="0" />
+      <button class="delete">Usuń zaznaczone</button>
+    </div>
+
+    <div class="results">
+      <div><span>Suma: </span><span class="sum">0</span></div>
+      <div><span>Średnia: </span><span class="avg">0</span></div>
+      <div><span>Min: </span><span class="min">0</span></div>
+      <div><span>Max: </span><span class="max">0</span></div>
+    </div>
+  </body>
+</html>
